@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/movies"
+        android:enabled="true"
+        android:icon="@drawable/movie"
+        android:title="@string/peliculas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/shows"
+        android:enabled="true"
+        android:title="@string/Series"
+        android:icon="@drawable/tv"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/chats"
+        android:enabled="true"
+        android:title="@string/chats"
+        android:icon="@drawable/chat"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/reseñas"
+        android:enabled="true"
+        android:title="@string/reviews"
+        android:icon="@drawable/reviews"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/watchlist"
+        android:enabled="true"
+        android:icon="@drawable/estrella"
+        android:title="@string/watchlist"
+        app:showAsAction="ifRoom" />
+</menu>

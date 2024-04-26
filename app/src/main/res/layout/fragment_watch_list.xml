@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2C2C2C"
+    >
+
+    <Spinner
+        android:id="@+id/watchlist_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:foregroundTint="@color/white"
+        android:foregroundTintMode="add"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/watchlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="16dp" />
+</LinearLayout>

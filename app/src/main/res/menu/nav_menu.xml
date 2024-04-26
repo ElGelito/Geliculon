@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:itemBackground="@color/white"
+    app:itemIconTint="@color/white"
+    app:itemTextColor="@color/white"
+    android:iconTint="@color/white"
+    >
+
+    <group
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        android:iconTint="@color/white"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:iconTint="#FFFFFF"
+            android:title="@string/home"
+            app:itemBackground="@color/white"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white" />
+        <item
+            app:itemBackground="@color/white"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/settings"/>
+        <item
+            app:itemBackground="@color/white"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_share_24"
+            android:title="@string/compartir"/>
+        <item
+            app:itemBackground="@color/white"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="@string/aboutus"/>
+        <item
+            app:itemBackground="@color/white"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:iconTint="@color/white"
+
+            android:id="@+id/nav_find"
+            android:icon="@drawable/baseline_search_24"
+
+            android:title="@string/buscar"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                app:itemBackground="@color/white"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+</menu>

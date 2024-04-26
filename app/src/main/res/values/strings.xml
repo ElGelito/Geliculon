@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Geliculon</string>
+    <string name="popular">Popular</string>
+    <string name="most_popular_movies">Peliculas mas populares</string>
+    <string name="error_fetch_movies">Porfavor, compruebe su conexion a internet</string>
+    <string name="top_rated">Top valoracion</string>
+    <string name="nowplaying">En Cartelera</string>
+    <string name="nowplayingoncinemas">Peliculas que se encuentran actualmente en cartelera</string>
+    <string name="highest_rated_movies">Peliculas con mejor valoracion de todos los tiempos</string>
+    <string name="upcoming">Proximamente</string>
+    <string name="stay_updated">Mantente actualizado con las nuevas peliculas</string>
+
+    <string name="most_popular_tv_shows">Series de television mas populares</string>
+    <string name="highest_rated_tv_shows_of_all_time">Series de television con mejor valoracion</string>
+    <string name="on_air">On Air</string>
+    <string name="currently_airing_tv_shows">Series de television on air</string>
+    <string name="add_to_watch_list">Añadir a la Watchlist</string>
+    <string name="remove_from_watch_list">Eliminar de la Watchlist</string>
+    <string name="comedy">Peliculas de Comedia</string>
+    <string name="comedy2">Las Mejores peliculas de comedia</string>
+    <string name="action">Peliculas de Acción</string>
+    <string name="action2">Las Mejores Peliculas de Accion</string>
+    <string name="drama">Las Mejores Peliculas de Drama</string>
+    <string name="drama2">Peliculas de drama</string>
+    <string name="horror">Peliculas de Terror</string>
+    <string name="horror2">Las Mejores Peliculas De Terror</string>
+    <string name="spanish">Peliculas Españolas</string>
+    <string name="spanish2">Las Mejores Peliculas del Cine Español</string>
+    <string name="argentinian">Peliculas Argentinas</string>
+    <string name="argentinian2">Las Mejores Peliculas del Cine Argentino</string>
+    <string name="animated">Peliculas de Animacion</string>
+    <string name="animated2">Las Mejores Peliculas de Animacion</string>
+    <string name="family">Peliculas Familiares</string>
+    <string name="family2">Las Mejores Peliculas Para ver en Familia</string>
+    <string name="scifi">Peliculas de Ciencia Ficcion</string>
+    <string name="scifi2">Las Mejores Peliculas de Ciencia Ficcion</string>
+    <string name="fantasy">Peliculas de Fantasia</string>
+    <string name="fantasy2">Las Mejores Peliculas de  Fantasia</string>
+    <string name="documentary">Documentales</string>
+    <string name="documentary2">Los Mejores Documentales</string>
+    <string name="western">Peliculas Del Oeste</string>
+    <string name="western2">Las Mejores Peliculas del Oeste</string>
+    <string name="war">Peliculas de Guerra</string>
+    <string name="war2">Las Mejores Peliculas Bélicas</string>
+    <string name="sports">Peliculas de Deporte</string>
+    <string name="sports2">Las Mejores Peliculas de Deporte</string>
+    <string name="valoracion">Valoracion</string>
+    <string name="sinopsis">Sinopsis:</string>
+    <string name="idioma_original">Idioma Original</string>
+    <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string-array name="watch_list_filter">
+        <item>Todo</item>
+        <item>Peliculas</item>
+        <item>Series</item>
+    </string-array>
+    <string-array name="languages">Idiomas
+        <item>ESPAÑOL</item>
+        <item>FRANCES</item>
+        <item>PORTUGUES</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="peliculas">Peliculas</string>
+    <string name="Series">Series</string>
+    <string name="watchlist">WatchList</string>
+    <string name="chats">Chats</string>
+    <string name="reviews">Reseñas</string>
+    <string name="invitado">Iniciar Sesion como Invitado</string>
+    <string name="google">Iniciar Sesion con Google</string>
+    <string name="forgotpass">Se te ha olvidado la contraseña?</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="registrate">¿No tienes cuenta? Regístrate</string>
+    <string name="inicio">Iniciar Sesion</string>
+    <string name="registrar">Registrar</string>
+    <string name="desc">Estudiante de Segundo año de Grado Superior DAM (Desarrollo Aplicaciones Multiplataforma)</string>
+    <string name="descgeli">
+ Geliculon es una aplicación todo en uno para los amantes del cine y las series de televisión. Ofrece información detallada, la posibilidad de valorar y comentar sobre películas y series, recomendaciones personalizadas y una función social para conectarse con otros usuarios y amigos. Si te apasiona el cine y las series, Geliculon es definitivamente una aplicación que debes probar.</string>
+    <string name="pholdernombre">Place Holder Nombre</string>
+    <string name="pholdercorreo">Place Holder Correo</string>
+    <string name="info">Informacion de la cuenta</string>
+    <string name="nombre">Nombre:</string>
+    <string name="mobile">Nº de Teléfono</string>
+    <string name="email">Email</string>
+    <string name="pholderusuario">Place Holder Usuario</string>
+    <string name="phnumero">Place Holder numero de telefono</string>
+    <string name="upcomingtv">Mantente Actualizado con las nuevas series</string>
+    <string name="airing_today">En Emision</string>
+    <string name="comedi">Series de Comedia</string>
+    <string name="comedi2">Las Mejores Series de Comedia</string>
+    <string name="actionn">Series de Accion</string>
+    <string name="actionn2">Las Mejores Series de Accion</string>
+    <string name="dramaa">Series de Drama</string>
+    <string name="dramaa2">Las Mejores Series de Drama</string>
+    <string name="horrorr2">Las Mejores Series de Terror</string>
+    <string name="horrorr">Series de Terror</string>
+    <string name="spanishh">Series Españolas</string>
+    <string name="spanishh2">Las Mejores Series Españolas</string>
+    <string name="animation">Series de Animacion</string>
+    <string name="animation2">Las Mejores Series de Animacion</string>
+    <string name="familiar">Series Familiares</string>
+    <string name="familiar2">Las Mejores Series Para Ver en Familia</string>
+    <string name="scify">Series de Ciencia Ficcion</string>
+    <string name="scify2">Las Mejores Series de Ciencia Ficcion</string>
+    <string name="fantasi">Series de Fantasia</string>
+    <string name="fantasi2">Las Mejores Series de Fantasia</string>
+    <string name="westernn">Series del Oeste</string>
+    <string name="westernn2">Las Mejores Series del Oeste</string>
+    <string name="warr">Series de Guerra</string>
+    <string name="warr2">Las Mejores Series de Guerrra</string>
+    <string name="warrr2">Las Mejores Series de Guerra</string>
+    <string name="sport">Series de Deporte</string>
+    <string name="sport2">Las Mejores Series de Deporte</string>
+    <string name="home">Home</string>
+    <string name="settings">Ajustes</string>
+    <string name="compartir">Compartir</string>
+    <string name="aboutus">Sobre Nosotros</string>
+    <string name="amigos">Amigos</string>
+    <string name="logout">Cerrar Sesion</string>
+    <string name="verreseña">Ver Reseñas:</string>
+    <string name="buscar">Buscar</string>
+    <string name="title_activity_actor_detail">ActorDetailActivity</string>
+    <string name="reparto">Reparto\n</string>
+    <string name="geliculon">Para mas informacion haz click aqui</string>
+    <string name="rellena">Rellena Los Campos</string>
+    <string name="noexiste">Correo No Existe</string>
+    <string name="checkea">Comprueba tu email</string>
+    <string name="nocoin">Las contraseñas no coinciden</string>
+    <string name="vacio">Los campos no pueden estar vacios</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="notis">Notificaciones</string>
+    <string name="sonido">Sonido</string>
+    <string name="fecha">Fecha de Nacimiento</string>
+    <string name="selecciona">Seleccionar Fecha</string>
+    <string name="correouser">Cuenta de Correo Electronico</string>
+    <string name="correogoogle">Cuenta de Google</string>
+    <string name="anonimo">Cuenta Anonima</string>
+    <string name="plataformas_de_streaming">Plataformas de Streaming</string>
+    <string name="Peliculassimilares">Peliculas Similares</string>
+    <string name="SeriesSimilares">SeriesSimilares</string>
+    <string name="redirije">¿No tienes cuenta? Crea una</string>
+    <string name="tipo_resena_label">Tipo de Reseña</string>
+    <string name="user_name_label">Nombre de Usuario</string>
+    <string name="user_id_label">Id de Usuario</string>
+    <string name="review_text_label">Reseña:</string>
+    <string name="review_rating_label">Valoracion:</string>
+    <string name="review_title">Titulo:</string>
+    <string name="Valorar">"Valorar "</string>
+    <string name="Series_Similares">Series Similares</string>
+</resources>
